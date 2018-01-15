@@ -1,5 +1,5 @@
 
-![Dialog](https://raw.githubusercontent.com/jookovjook/gestures-recogniser/master/images/Art.png)
+![Dialog: app for hear impaired people](https://raw.githubusercontent.com/jookovjook/dialog/master/images/Art.png)
 
 App for hear impaired people.
 
@@ -9,10 +9,10 @@ App for hear impaired people.
 - [Communication](#communication)
 - [Installation](#installation)
 - [Overview](#overview)
-    - [Run program](#run-program)
-    - [Move cursor](#move-cursor)
-    - [Notification](#notification) 
-- [Add Own Patterns](#add-own-patterns)
+    - [Cards](#cards)
+    - [Dialog](#dialog)
+    - [Split Screen](#split-screen) 
+    - [Supported Languages](#supported-languages)
 - [Credits](#credits)
 - [Donations](#donations)
 - [License](#license)
@@ -21,19 +21,19 @@ App for hear impaired people.
 
 
 Dialog is an Android app which helps hear impaired and deaf people to communicate with people without hearing problems.
-Dialog uses Yandex SpeechKit technology.
+Dialog uses Yandex SpeechKit API.
 
 ## Features
 
-- [x] Background monitoring all movements of your cursor
-- [x] Finding prescripted patterns of cursor movements
-- [x] You can add unlimited amount of your own patterns
-- [x] Showing notifications when a pattern was spotted
+- [x] Speech-to-text recognition
+- [x] Speech synthesizing
+- [x] Creating and editing quick access phrases to synthesize loudly
+- [x] Conducting a dialog with person without hearing problems: recognition of his/her speech and synthesizing of inserted by user text
+- [x] Simultanious recognition and synthesizing
 
 ## Requirements
 
-- macOS 10.11 +
-- xCode 9.0 +
+- Android 4.2 +
 
 ## Communication
 
@@ -45,61 +45,51 @@ Dialog uses Yandex SpeechKit technology.
 
 ## Installation
 
-Firstly clone [gestures-recognizer](https://github.com/jookovjook/gestures-recogniser) to your Mac.
+Firstly clone [dialog](https://github.com/jookovjook/dialog) respository
 
 ```bash
-$ git clone https://github.com/jookovjook/gestures-recogniser
+$ git clone https://github.com/jookovjook/dialog
 ```
+
+Add Yandex SpeechKit API key in `Config.java`:
+
+```Java
+public static final String API_KEY = "YOUR_API_KEY";
+```
+
+If you don't have an API key, you can get one at [Yandex SpeeckKit](https://tech.yandex.ru/speechkit/).
 
 `Build` project and `Run` it.
 
 ## Overview
 
-### Run program
+### Cards
 
-• Run GR program
+• Use cards on the main screen to quickly synthesize text
 
-<img src="https://raw.githubusercontent.com/jookovjook/gestures-recogniser/master/images/mainwindow.png" width="592">
+<img src="https://raw.githubusercontent.com/jookovjook/dialog/master/images/1.png" width="250">
 
-••• (!!!) Minimise GR and focus cursor on any other window or Desktop.
+You can create your own card by pressing `+` on the main screen and edit already existing cards.
 
-### Move cursor
+### Dialog
 
-• Make one of the prescript movements with your cursor
+Type text using keyboard to enable other people see what you want to say them.
 
-<img src="https://raw.githubusercontent.com/jookovjook/gestures-recogniser/master/images/gesture4.png" width="592">
+Type `Microphone` button at the top of the screen to start speech-to text recognition. Recongised speech will be quickly displayed at the screen.
 
-### Notification
+<img src="https://raw.githubusercontent.com/jookovjook/dialog/master/images/2.png" width="250">
 
-• After you made one of the prescripted gestures, you will see a notification with gesture recognised.
+### Split Screen
 
-<img src="https://raw.githubusercontent.com/jookovjook/gestures-recogniser/master/images/notif.png" width="480">
+Use Split Screen mode to simultaneous recognition and synthesizing.
 
-## Add Own Patterns
+<img src="https://raw.githubusercontent.com/jookovjook/dialog/master/images/3.png" width="250">
 
-There are 4 patterns (gestures) created in current project, but can add your own. As many as you wish!
+### Supported Languages
 
-To add your own pattern, edit `Utils.swift` the next way:
+Dialog now supports `Russian`, `English`, `Turkish` and `Ukrainian` languages.
 
-Add `x` and `y` arrays of your pattern. In these arrays nodes of a pattern are encoded.
-
-```Swift
-let gn_x : [CGFloat] = [1, 0.5, 0.5, 0]
-let gn_y : [CGFloat] = [0, 1, 0, 1]
-```
-
-Add the constant for your gesture ro enum `Gestures`:
-
-```Swift
-case g1
-```
-
-Add your patter to `compare` and `compareWith` functions.
-
-Add your pattern to `movementHandler` function.
-
-DONE.
-
+<img src="https://raw.githubusercontent.com/jookovjook/dialog/master/images/4.png" width="250">
 
 ## Credits
 
@@ -123,7 +113,7 @@ I'll be gratefull if you donate some funds to my `Etherium wallet`:
 
 ## License
 
-TechnoGram is released under the Apache 2.0 license.
+Dialog is released under the Apache 2.0 license.
 
     Copyright 2018 JookovJook
     
