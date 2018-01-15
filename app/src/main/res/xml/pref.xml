@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref">
+
+    <ListPreference
+        android:key="PREF_LANG"
+        android:title="@string/setting_lang_title"
+        android:summary="@string/setting_lang_summary"
+        android:entries="@array/list_languages"
+        android:entryValues="@array/list_languages_values"
+        android:defaultValue="@string/default_language"/>
+    <ListPreference
+        android:key="PREF_VOICE"
+        android:title="@string/setting_voice_title"
+        android:summary="@string/setting_voice_summary"
+        android:entries="@array/list_voices"
+        android:entryValues="@array/list_voices_values"
+        android:defaultValue="2"/>
+
+</PreferenceScreen>

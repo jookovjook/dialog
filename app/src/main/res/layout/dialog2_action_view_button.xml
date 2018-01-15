@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/back_circle_shaddow"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:src="@drawable/dialog2_back_circle_shadow"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scaleX="0.749"
+        android:scaleY="0.749"
+        android:alpha="0.00"/>
+    <ImageView
+        android:id="@+id/back_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector_drawable_ic_circle_back___px"
+        android:tint="@color/dialog2_back_circle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scaleX="0.749"
+        android:scaleY="0.749"/>
+    <ImageView
+        android:id="@+id/front_circle_shaddow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dialog2_front_circle_shadow"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:alpha="0"/>
+
+    <ImageView
+        android:id="@+id/front_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector_drawable_ic_circle_white___px"
+        android:tint="@color/dialog2_front_circle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/btnMic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector_drawable_ic_mic_black___px"
+        android:tint="@color/dialog2_mic"
+        android:background="@null"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="@dimen/dialog2_mic_line_width"
+        android:layout_height="@dimen/dialog2_mic_line_height"
+        android:src="@drawable/dialog2_cross_mic_line_transparent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

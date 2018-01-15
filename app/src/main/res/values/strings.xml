@@ -1,0 +1,137 @@
+<resources>
+    <!--TODO: UnSorted-->
+    <string name="app_name">Диалог</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="dialog_message_item_pinned">Измените текст карточки.</string>
+    <string name="default_language">2</string>
+    <!--<string name="dialog_message_item_pinned">Измените текст карточки. (pos = %1$d)</string>!-->
+
+    <!-- TODO: Main Menu-->
+    <string name="main_menu_db">Показать базу данных</string>
+    <string name="main_menu_show_dialog">Открыть Диалог</string>
+    <string name="main_menu_yandex" translatable="false">Yandex SpeechKit</string>
+
+    <!--TODO: Main Alerts-->
+    <string name="snack_bar_text_item_removed">Карточка удалена</string>
+    <string name="snack_bar_action_undo">Вернуть</string>
+    <string name="main_alert_edit_title">Отредактируйте текст карточки:</string>
+    <string name="main_alert_edit_OK">OK</string>
+    <string name="main_alert_edit_cancel">Отмена</string>
+    <string name="main_toast_edited">Карточка отредактирована</string>
+    <string name="main_alert_create_title">Введите текст для новой карточки:</string>
+    <string name="main_alert_create_OK">Создать</string>
+    <string name="main_alert_create_cancel">Отмена</string>
+    <string name="main_toast_created">Карточка создана</string>
+
+    <!--TODO: About-->
+    <string name="yandex_hyperlink" translatable="false">https://tech.yandex.ru/speechkit/mobilesdk/</string>
+    <string name="about_title" translatable="false">О приложении</string>
+    <string name="yandex_link" translatable="false"><a href="https://tech.yandex.ru/speechkit/mobilesdk/">https://tech.yandex.ru/speechkit/mobilesdk/</a></string>
+    <string name="yandex_description">Использует сервис \"Yandex SpeechKit Mobile SDK\"</string>
+    <string name="adv_rv_link" translatable="false"><a href="https://github.com/h6ah4i/android-advancedrecyclerview">Advanced RecyclerView</a></string>
+    <string name="adv_rv_description_copyright" translatable="false">Copyright &#169; 2015 Haruki Hasegawa</string>
+    <string name="adv_rv_description_1" translatable="false">Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at</string>
+    <string name="adv_rv_description_2" translatable="false">http://www.apache.org/licenses/LICENSE-2.0</string>
+    <string name="adv_rv_description_3" translatable="false">Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="about_own_1">Версия 1.0.2</string>
+    <string name="about_own_2" translatable="false">Copyright &#169; 2018 JookovJook</string>
+
+    <!--TODO: Dialog2 FullScreen-->
+    <string name="dialog2_fs_up_text">Распознанная речь</string>
+    <string name="dialog2_fs_up_text_2">Нажмите на значок микрофона, чтобы начать непрерывное распознавание речи.</string>
+    <string name="dialog2_fs_down_text">Печатаемый текст</string>
+    <string name="dialog2_fs_down_text_r">Одновременно с распознаванием, можно печатать текст с клавиатуры.</string>
+    <string name="dialog2_hint_text"> Введите текст &#8230;</string>
+
+    <!--TODO: Dialog2 Cards PopUp-->
+    <string name="dialog2_cpu_copy">Скопировать</string>
+    <string name="dialog2_cpu_play">Воспроизвести</string>
+    <string name="dialog2_cpu_add">Добавить карточку</string>
+    <string name="dialog2_cpu_del">Удалить</string>
+    <string name="dialog2_cpu_copy_alert">Скопировано</string>
+    <string name="dialog2_cpu_add_alert">Карточка добавлена</string>
+    <string name="dialog2_cpu_del_alert">Удалено</string>
+
+    <!--TODO: Dialog2 Menu-->
+    <string name="dialog2_menu_rec">Распознование</string>
+    <string name="dialog2_menu_yandex" translatable="false">@string/main_menu_yandex</string>
+
+    <!--TODO: Nav Header-->
+    <string name="nav_header_copyright" translatable="false">Copyright &#169; 2018 JookovJook</string>
+
+    <!--TODO: Nav Drawer-->
+    <string name="nav_dialog">Диалог</string>
+    <string name="nav_cards">Карточки</string>
+    <string name="nav_add">Добавить карточку</string>
+    <string name="nav_settings" translatable="false">@string/settings_title</string>
+    <string name="nav_about" translatable="false">@string/about_title</string>
+
+    <!--TODO: Settings-->
+    <string name="settings_title">Настройки</string>
+    <string name="setting_lang_title">Язык</string>
+    <string name="setting_lang_summary">Язык распознования и синтеза речи.</string>
+    <string name="setting_lang_eng">Английский</string>
+    <string name="setting_lang_rus">Русский</string>
+    <string name="setting_lang_tur">Турецкий</string>
+    <string name="setting_lang_ukr">Украинский</string>
+    <string name="setting_lang_eng_value" translatable="false">1</string>
+    <string name="setting_lang_rus_value" translatable="false">2</string>
+    <string name="setting_lang_tur_value" translatable="false">3</string>
+    <string name="setting_lang_ukr_value" translatable="false">4</string>
+    <string name="setting_voice_title">Голос</string>
+    <string name="setting_voice_summary">Голос синтеза речи.</string>
+    <string name="setting_voice_1">Элис (жен.)</string>
+    <string name="setting_voice_2">Ермил (муж.)</string>
+    <string name="setting_voice_3">Джейн (жен.)</string>
+    <string name="setting_voice_4">Омаж (жен.)</string>
+    <string name="setting_voice_5">Захар (муж.)</string>
+    <string name="setting_voice_1_value" translatable="false">1</string>
+    <string name="setting_voice_2_value" translatable="false">2</string>
+    <string name="setting_voice_3_value" translatable="false">3</string>
+    <string name="setting_voice_4_value" translatable="false">4</string>
+    <string name="setting_voice_5_value" translatable="false">5</string>
+
+    <!--TODO: Main Database-->
+    <string name="main_db_1">Говорите, пожалуйста, в телефон. У меня проблемы со слухом. Это приложение поможет нам коммуницировать, переводя устную речь в текст и обратно. Говорите, пожалуйста громко и разборчиво.</string>
+    <string name="main_db_2">У меня проблемы со слухом. Пожалуйста, повторите то, что вы только что сказали.</string>
+    <string name="main_db_3">Мне плохо. Пожалуйста, позвоните моим родным. Я покажу вам, как это сделать. У меня проблемы со слухом.</string>
+    <string name="main_db_4">Мне плохо. Пожалуйста, вызовите скорую.</string>
+    <string name="main_db_5">Не подскажете, кто последний?</string>
+    <string name="main_db_6">Не подскажете, как пройти к?..</string>
+    <string name="main_db_7">Не подскажете, что здесь происходит? У меня проблемы со слухом.</string>
+    <string name="main_db_8">Не подскажете, какая следующая остановка?</string>
+    <string name="main_db_9">Здравствуйте!</string>
+    <string name="main_db_10">Спасибо!</string>
+    <string name="main_db_11">Здесь отображается распознанная речь.</string>
+    <string name="main_db_12">Здесь отображается напечатанный текст.</string>
+    <string name="main_db_13">Нажмите на значок микрофона, чтобы начать распознавание речи.</string>
+    <string name="main_db_14">Нажмите на текст, чтобы воспроизвести его.</string>
+    <string name="main_db_15">Нажмите на значок в виде трех точек справа, чтобы получить доступ к следующим функциям:</string>
+    <string name="main_db_16">1. Скопировать текст в буфер обмена.</string>
+    <string name="main_db_17">2. Воспроизвести текст.</string>
+    <string name="main_db_18">3. Создать новую карточку, содержащую данный текст.</string>
+    <string name="main_db_19">4. Удалить текст.</string>
+    <string name="main_db_20">Нажмите на значок в виде двух плиток, чтобы перейти в режим Split Screen.</string>
+
+    <!--TODO: Errors-->
+    <string name="error_api_key">Ошибка при проверке API-ключа. Обратитесь к разработчику.</string>
+    <string name="error_audio">Ошибка записи звука.</string>
+    <string name="error_audio_interrupted">Работа со звуком была прервана.</string>
+    <string name="error_audio_permissions">У приложения нет прав для использования микрофона.</string>
+    <string name="error_audio_player">Ошибка воспроизведения звука.</string>
+    <string name="error_busy">Предыдущая операция не завершена.</string>
+    <string name="error_canceled">Операция отменена.</string>
+    <string name="error_encoding">Ошибка кодирования звука.</string>
+    <string name="error_language_not_supported_for_model">Язык не поддерживается для выбранной модели.</string>
+    <string name="error_network">Ошибка сети.</string>
+    <string name="error_no_speech">Речь не обнаружена.</string>
+    <string name="error_no_text_to_synthesize">Ошибка преобразования текста в речь.</string>
+    <string name="error_not_available">Сервис недоступен.</string>
+    <string name="error_ok">Нет ошибки.</string>
+    <string name="error_server">Ошибка сервера.</string>
+    <string name="error_unknown">Неизвестная ошибка.</string>
+    <string name="error_no_text">Текст не обнаружен.</string>
+    <string name="dialog2_menu_fs">Разделить экран</string>
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Preferences.AboutActivity"
+    android:fitsSystemWindows="true"
+    android:background="@color/about_background">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="@dimen/toolbar_elevation"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/about_title"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/about_logo_width"
+                android:layout_height="@dimen/about_logo_height"
+                android:scaleType="fitXY"
+                android:layout_margin="@dimen/about_margin"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/about_own_1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/about_own_2"/>
+
+            <!-- Divider-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/about_divider_height"
+                android:background="@color/about_divider"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"/>
+            <!-- Divider-->
+
+            <ImageView
+                android:layout_width="@dimen/about_yandex_logo_width"
+                android:layout_height="@dimen/about_yandex_logo_height"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/yandex_full_logo"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/yandex_description"/>
+            <TextView
+                android:id="@+id/yandex_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/yandex_link" />
+
+            <!-- Divider-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/about_divider_height"
+                android:background="@color/about_divider"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"/>
+            <!-- Divider-->
+
+            <TextView
+                android:id="@+id/adv_rv_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/adv_rv_link" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="left"
+                android:text="@string/adv_rv_description_copyright"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="left"
+                android:text="@string/adv_rv_description_1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/adv_rv_description_2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/about_margin"
+                android:layout_marginLeft="@dimen/about_margin"
+                android:layout_marginBottom="@dimen/about_margin"
+                android:gravity="left"
+                android:text="@string/adv_rv_description_3"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

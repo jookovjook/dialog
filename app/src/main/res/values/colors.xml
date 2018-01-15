@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fb0ac</color>
+    <color name="colorPrimaryDark">#3fb0ac</color>
+    <color name="colorAccent">#8e5978</color>
+    <color name="colorOpposite">#fae596</color>
+    <color name="bg_swipe_item_neutral">@android:color/transparent</color>
+    <color name="bg_item_dragging_active_state">#FAFAFA</color>
+    <color name="bg_item_normal_state">#FAFAFA</color>
+    <color name="bg_item_dragging_state">#FAFAFA</color>
+    <color name="bg_item_swiping_state">#FAFAFA</color>
+    <color name="bg_item_swiping_active_state">#FAFAFA</color>
+    <color name="bg_swipe_item_dismiss">#e7e7e7</color>
+    <color name="snackbar_action_color_done">#FFCCCCFF</color>
+
+    <!--TODO: MainActivity-->
+    <color name="main_background">#dddfd4</color>
+    <color name="main_fab_icon">#ffffff</color>
+
+    <!--TODO: About-->
+    <color name="about_background">#ffffff</color>
+    <color name="about_divider">#2f000000</color>
+
+    <!--TODO: Dialog2-->
+    <color name="dialog2_background">@color/main_background</color>
+    <color name="dialog2_edit_text_line">@color/dialog2_edit_text_hint</color>
+    <color name="dialog2_edit_text_background">#fffdf6</color>
+    <color name="dialog2_edit_text_text">#6c5519</color>
+    <color name="dialog2_edit_text_enter">@color/dialog2_edit_text_text</color>
+    <color name="dialog2_edit_text_hint">#a68e4d</color>
+    <color name="dialog2_card_text">#404040</color>
+    <color name="dialog2_back_circle">@color/colorOpposite</color>
+    <color name="dialog2_front_circle">@color/colorAccent</color>
+    <color name="dialog2_mic">#ffffff</color>
+    <color name="dialog2_toolbar_content">#ffffff</color>
+    <color name="dialog2_toolbar">@color/colorPrimary</color>
+
+    <!--TODO: Dialog2 FullScreen-->
+    <color name="dialog2_fs_background">@color/dialog2_background</color>
+    <color name="dialog2_fs_up">#000000</color>
+    <color name="dialog2_fs_up_2">#7f000000</color>
+    <color name="dialog2_fs_up_r">@color/dialog2_fs_up_2</color>
+    <color name="dialog2_fs_down">@color/dialog2_fs_up</color>
+    <color name="dialog2_fs_down_2">@color/dialog2_fs_up_2</color>
+    <color name="dialog2_fs_down_r">@color/dialog2_fs_down_2</color>
+
+    <!--TODO: Fragment RecyclerView Main-->
+    <color name="main_rv_background">@color/main_background</color>
+    <color name="main_rv_fab_ripple">#20000000</color>
+    <color name="main_rv_item_background">#b9b9b9</color>
+    <color name="main_rv_icon">#b9b9b9</color>
+    <color name="main_rv_item_text">#000000</color>
+    <color name="main_rv_item_backgr">#f0f0f0</color>
+</resources>

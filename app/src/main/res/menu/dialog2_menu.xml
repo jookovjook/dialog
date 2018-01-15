@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jookovjook.designchat2.MainActivity">
+    <item
+        android:id="@+id/mic_item"
+        android:orderInCategory="102"
+        android:title="@string/dialog2_menu_rec"
+        app:actionLayout="@layout/dialog2_action_view_button"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/full_screen"
+        android:orderInCategory="102"
+        android:title="@string/dialog2_menu_fs"
+        app:actionLayout="@layout/dialog2_fl_sc_button"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/dialog2_yandex"
+        android:title="@string/dialog2_menu_yandex"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/yandex_short_logo"/>
+</menu>

@@ -1,0 +1,8 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog2_fragment_recognizer"
+    android:name="com.jookovjook.base.Dialog2.Dialog2RecognizerFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:layout="@layout/dialog2_recognizer_fragment"/>

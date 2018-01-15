@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_languages">
+        <item>@string/setting_lang_eng</item>
+        <item>@string/setting_lang_rus</item>
+        <item>@string/setting_lang_tur</item>
+        <item>@string/setting_lang_ukr</item>
+    </string-array>
+    <string-array name="list_languages_values">
+        <item>@string/setting_lang_eng_value</item>
+        <item>@string/setting_lang_rus_value</item>
+        <item>@string/setting_lang_tur_value</item>
+        <item>@string/setting_lang_ukr_value</item>
+    </string-array>
+    <string-array name="list_voices">
+        <item>@string/setting_voice_1</item>
+        <item>@string/setting_voice_2</item>
+        <item>@string/setting_voice_3</item>
+        <item>@string/setting_voice_4</item>
+        <item>@string/setting_voice_5</item>
+    </string-array>
+    <string-array name="list_voices_values">
+        <item>@string/setting_voice_1_value</item>
+        <item>@string/setting_voice_2_value</item>
+        <item>@string/setting_voice_3_value</item>
+        <item>@string/setting_voice_4_value</item>
+        <item>@string/setting_voice_5_value</item>
+    </string-array>
+</resources>
